@@ -26,6 +26,12 @@
             </bf:AdminMetadata>
         </bf:adminMetadata>
         <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/StillImage"/>
+        <bf:hasInstance rdf:resource="http://rdf.artframe/12003797/I1"/>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
+            </bf:Title>
+        </bf:title>
         <bf:contribution>
             <bf:Contribution>
                 <bf:agent>
@@ -38,13 +44,6 @@
                     <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/art"/>
                 </bf:role>
             </bf:Contribution>
-            <bf:title>
-                <bf:Title>
-                    <bf:WorkTitle>
-                        <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
-                    </bf:WorkTitle>
-                </bf:Title>
-            </bf:title>
         </bf:contribution>
         <bf:genreForm>
             <bf:GenreForm rdf:about="http://vocab.getty.edu/aat/300033618">
@@ -56,18 +55,19 @@
                 <rdfs:label>portraits</rdfs:label>
             </bf:GenreForm>
         </bf:genreForm>
-      <vra:culturalContext>
-            <vra:Culture>
-                <rdfs:label>British</rdfs:label>
+        <vra:culturalContext>
+            <vra:Culture rdf:about="http://vocab.getty.edu/aat/300111159">
+                <vra:name>British (modern)</vra:name>
             </vra:Culture>
         </vra:culturalContext>
         <vra:hasStylePeriod>
-            <vra:StylePeriod>
-                <rdfs:label>19th century</rdfs:label>
-            </vra:StylePeriod>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/StylePeriod"/>
+                <vra:name>19th century</vra:name>
+            </rdf:Description>
         </vra:hasStylePeriod>
         <bf:subject>
-            <bf:Agent rdf:resource="http://id.loc.gov/authorities/names/n80013276">
+            <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n80013276">
                 <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
                 <rdfs:label>Morier, James Justinian, 1780?-1849</rdfs:label>
             </bf:Agent>
@@ -81,7 +81,6 @@
                     Orme, and Brown, 1818).</rdfs:label>
             </bf:Summary>
         </bf:summary>
-        <bf:hasInstance rdf:resource="http://rdf.artframe/12003797/I1"/>
     </bf:Work>
     <bf:Instance rdf:about="http://rdf.artframe/12003797/I1">
         <bf:issuance>
@@ -98,9 +97,8 @@
                 </bf:place>
                 <bf:place>
                     <bf:Place>
-                        <madsrdf:Country>
-                            <rdfs:label>United Kingdom</rdfs:label>
-                        </madsrdf:Country>
+                        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Country"/>
+                        <rdfs:label>United Kingdom</rdfs:label>
                     </bf:Place>
                 </bf:place>
             </bf:ProvisionActivity>
@@ -109,9 +107,7 @@
             1818.</bf:provisionActivityStatement>
         <bf:title>
             <bf:Title>
-                <bf:InstanceTitle>
-                    <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
-            </bf:InstanceTitle>
+                <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
             </bf:Title>
         </bf:title>
         <bf:extent>
@@ -144,12 +140,12 @@
         </bf:note>
         <bf:instanceOf rdf:resource="http://rdf.artframe/12003797/W1"/>
     </bf:Instance>
-    <bf:hasItem rdf:resource="http://rdf.artframe/12003797/Item1"/>
-    <bf:Item rdf:about="http://rdf.artframe/12003797/Item1">
+    <bf:hasItem>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Item"/>
         <bf:shelfMark>
-            <bf:ShelfMarkLcc>
+            <bf:ShelfMark>
                 <rdfs:label>2000.06.032</rdfs:label>
-            </bf:ShelfMarkLcc>
+            </bf:ShelfMark>
         </bf:shelfMark>
         <bf:heldBy>
             <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/nynycap">
@@ -161,5 +157,6 @@
             Plimpton, to the George A. Plimpton Collection (Rare Book and Manuscript
             Library).</bf:immediateAcquisition>
         <bf:itemOf rdf:resource="http://rdf.artframe/12003797/I1"/>
-    </bf:Item>
+
+    </bf:hasItem>
 </rdf:RDF>
