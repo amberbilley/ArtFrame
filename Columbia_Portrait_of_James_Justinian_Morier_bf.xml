@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v6.2.1#"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo#"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe#" xmlns:vra="http://purl.org/vra/"
+    xmlns:relator="http://id.loc.gov/vocabulary/relators/#"
+    xmlns:madsrdf="http://www.loc.gov/standards/mads/rdf/v1.rdf"
+    xmlns:rdau="http://www.rdaregistry.info/Elements/u/#" xml:base="http://rdf.artframe/resource/">
+    <bf:Work rdf:about="http://rdf.artframe/12003797/W1">
+        <bf:adminMetadata>
+            <bf:AdminMetadata>
+                <bf:descriptionConventions>
+                    <bf:DescriptionConventions>
+                        <bf:code>isbd</bf:code>
+                    </bf:DescriptionConventions>
+                </bf:descriptionConventions>
+                <bf:identifiedBy>
+                    <bf:Local>
+                        <rdf:value>12003797</rdf:value>
+                    </bf:Local>
+                </bf:identifiedBy>
+                <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >2016-06-07</bf:creationDate>
+                <bf:source rdf:resource="http://id.loc.gov/vocabulary/organizations/nynycap"/>
+            </bf:AdminMetadata>
+        </bf:adminMetadata>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/StillImage"/>
+        <bf:contribution>
+            <bf:Contribution>
+                <bf:agent>
+                    <bf:Agent rdf:about="http://id.loc.gov/authorities/names/nr2005012666">
+                        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                        <rdfs:label>Harlow, George Henry, 1787-1819</rdfs:label>
+                    </bf:Agent>
+                </bf:agent>
+                <bf:role>
+                    <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/art"/>
+                </bf:role>
+            </bf:Contribution>
+            <bf:title>
+                <bf:Title>
+                    <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
+                    <bf:mainTitle>Portrait of James Justinian Morier (1780?-1849)</bf:mainTitle>
+                </bf:Title>
+            </bf:title>
+        </bf:contribution>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://vocab.getty.edu/aat/300033618">
+                <rdfs:label>paintings (visual works)</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://vocab.getty.edu/aat/300015637">
+                <rdfs:label>portraits</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <vra:culturalContext>
+            <vra:Culture>British</vra:Culture>
+        </vra:culturalContext>
+        <vra:hasStylePeriod>
+            <vra:StylePeriod>19th century</vra:StylePeriod>
+        </vra:hasStylePeriod>
+        <bf:subject>
+            <bf:Agent rdf:resource="http://id.loc.gov/authorities/names/n80013276">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <rdfs:label>Morier, James Justinian, 1780?-1849</rdfs:label>
+            </bf:Agent>
+        </bf:subject>
+        <bf:summary>
+            <bf:Summary>
+                <rdfs:label>This three-quarter-length portrait depicts Morier seated and dressed in
+                    a Qajar Persian costume. He holds in his hand a copy of his recently-published
+                    travelogue "A Second Journey Through Persia, Armenia, and Asia Minor, to
+                    Constantinople, between the Years 1810 and 1816" (London: Longman, Hurst, Rees,
+                    Orme, and Brown, 1818).</rdfs:label>
+            </bf:Summary>
+        </bf:summary>
+        <bf:hasInstance rdf:resource="http://rdf.artframe/12003797/I1"/>
+    </bf:Work>
+    <bf:Instance rdf:about="http://rdf.artframe/12003797/I1">
+        <bf:issuance>
+            <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+        </bf:issuance>
+        <bf:provisionActivity>
+            <bf:ProvisionActivity>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Production"/>
+                <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1818</bf:date>
+                <bf:place>
+                    <bf:Place>
+                        <rdfs:label>London, England, United Kingdom</rdfs:label>
+                    </bf:Place>
+                </bf:place>
+                <bf:place>
+                    <bf:Place>
+                        <madsrdf:Country>
+                            <rdfs:label>United Kingdom</rdfs:label>
+                        </madsrdf:Country>
+                    </bf:Place>
+                </bf:place>
+            </bf:ProvisionActivity>
+        </bf:provisionActivity>
+        <bf:provisionActivityStatement>London, England, United Kingdom,
+            1818.</bf:provisionActivityStatement>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
+                <bf:mainTitle>Portrait of James Justinian Morier (1780?-1849)</bf:mainTitle>
+            </bf:Title>
+        </bf:title>
+        <bf:extent>
+            <bf:Extent>
+                <rdfs:label>1 painting</rdfs:label>
+            </bf:Extent>
+        </bf:extent>
+        <bf:dimensions>Sight size: 28 x 24 in. (71.5 x 61 cm); with frame: 34 1/2 x 30 1/2 in. (87.5
+            x 77.5 cm)</bf:dimensions>
+        <bf:media>
+            <bf:Media>
+                <rdfs:label>unmediated</rdfs:label>
+            </bf:Media>
+        </bf:media>
+        <bf:carrier>
+            <bf:Carrier>
+                <rdfs:label>unspecified</rdfs:label>
+            </bf:Carrier>
+        </bf:carrier>
+        <bf:baseMaterial>
+            <bf:BaseMaterial>
+                <rdfs:label>Oil on canvas</rdfs:label>
+            </bf:BaseMaterial>
+        </bf:baseMaterial>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>A plaque at the bottom of the frame reads: "G. H. HARLOW, 1787-1819. /
+                    JAMES JUSTINIAN MORIER. / Author of 'Hajji Baba.'"</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:instanceOf rdf:resource="http://rdf.artframe/12003797/W1"/>
+    </bf:Instance>
+    <bf:hasItem rdf:resource="http://rdf.artframe/12003797/Item1"/>
+    <bf:Item rdf:about="http://rdf.artframe/12003797/Item1">
+        <bf:shelfMark>
+            <bf:ShelfMarkLcc>
+                <rdfs:label>2000.06.032</rdfs:label>
+            </bf:ShelfMarkLcc>
+        </bf:shelfMark>
+        <bf:heldBy>
+            <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/nynycap">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+                <rdfs:label>Columbia University Libraries Office of Art Properties</rdfs:label>
+            </bf:Agent>
+        </bf:heldBy>
+        <bf:immediateAcquisition>Gift of Dr. Calvin H. Plimpton and his mother Anne Hastings
+            Plimpton, to the George A. Plimpton Collection (Rare Book and Manuscript
+            Library).</bf:immediateAcquisition>
+        <bf:itemOf rdf:resource="http://rdf.artframe/12003797/I1"/>
+    </bf:Item>
+</rdf:RDF>
