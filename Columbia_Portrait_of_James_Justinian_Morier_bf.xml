@@ -40,8 +40,9 @@
             </bf:Contribution>
             <bf:title>
                 <bf:Title>
-                    <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
-                    <bf:mainTitle>Portrait of James Justinian Morier (1780?-1849)</bf:mainTitle>
+                    <bf:WorkTitle>
+                        <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
+                    </bf:WorkTitle>
                 </bf:Title>
             </bf:title>
         </bf:contribution>
@@ -55,11 +56,15 @@
                 <rdfs:label>portraits</rdfs:label>
             </bf:GenreForm>
         </bf:genreForm>
-        <vra:culturalContext>
-            <vra:Culture>British</vra:Culture>
+      <vra:culturalContext>
+            <vra:Culture>
+                <rdfs:label>British</rdfs:label>
+            </vra:Culture>
         </vra:culturalContext>
         <vra:hasStylePeriod>
-            <vra:StylePeriod>19th century</vra:StylePeriod>
+            <vra:StylePeriod>
+                <rdfs:label>19th century</rdfs:label>
+            </vra:StylePeriod>
         </vra:hasStylePeriod>
         <bf:subject>
             <bf:Agent rdf:resource="http://id.loc.gov/authorities/names/n80013276">
@@ -104,8 +109,9 @@
             1818.</bf:provisionActivityStatement>
         <bf:title>
             <bf:Title>
-                <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
-                <bf:mainTitle>Portrait of James Justinian Morier (1780?-1849)</bf:mainTitle>
+                <bf:InstanceTitle>
+                    <rdfs:label>Portrait of James Justinian Morier (1780?-1849)</rdfs:label>
+            </bf:InstanceTitle>
             </bf:Title>
         </bf:title>
         <bf:extent>
