@@ -1,0 +1,130 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vra: <http://purl.org/vra/> .
+@prefix edtf: <http://id.loc.gov/datatypes/> .
+
+<http://rdf.artframe/12003797/W1>
+  a <http://id.loc.gov/ontologies/bibframe#Work>, <http://id.loc.gov/ontologies/bibframe/StillImage> ;
+  bf:adminMetadata [
+    a bf:AdminMetadata ;
+    bf:descriptionConventions [
+      a bf:DescriptionConventions ;
+      bf:code "isbd"
+    ] ;
+    bf:identifiedBy [
+      a bf:Local ;
+      rdf:value "12003797"
+    ] ;
+    bf:creationDate "2016-06-07"^^xsd:date ;
+    bf:source <http://id.loc.gov/vocabulary/organizations/nynycap>
+  ] ;
+  bf:hasInstance <http://rdf.artframe/12003797/I1> ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "Portrait of James Justinian Morier (1780?-1849)"
+  ] ;
+  bf:contribution [
+    a bf:Contribution ;
+    bf:agent <http://id.loc.gov/authorities/names/nr2005012666> ;
+    bf:role <http://id.loc.gov/vocabulary/relators/art>
+  ] ;
+  bf:genreForm <http://vocab.getty.edu/aat/300033618>, <http://vocab.getty.edu/aat/300015637> ;
+  vra:culturalContext <http://vocab.getty.edu/aat/300111159> ;
+  vra:hasStylePeriod [
+    a vra:StylePeriod ;
+    vra:name "19th century"
+  ] ;
+  bf:subject <http://id.loc.gov/authorities/names/n80013276> ;
+  bf:summary [
+    a bf:Summary ;
+    rdfs:label """This three-quarter-length portrait depicts Morier seated and dressed in
+                    a Qajar Persian costume. He holds in his hand a copy of his recently-published
+                    travelogue "A Second Journey Through Persia, Armenia, and Asia Minor, to
+                    Constantinople, between the Years 1810 and 1816" (London: Longman, Hurst, Rees,
+                    Orme, and Brown, 1818)."""
+  ] .
+
+<http://id.loc.gov/authorities/names/nr2005012666>
+  a bf:Agent, <http://id.loc.gov/ontologies/bibframe/Person> ;
+  rdfs:label "Harlow, George Henry, 1787-1819" .
+
+<http://id.loc.gov/vocabulary/relators/art> a bf:Role .
+<http://vocab.getty.edu/aat/300033618>
+  a bf:GenreForm ;
+  rdfs:label "paintings (visual works)" .
+
+<http://vocab.getty.edu/aat/300015637>
+  a bf:GenreForm ;
+  rdfs:label "portraits" .
+
+<http://vocab.getty.edu/aat/300111159>
+  a vra:Culture ;
+  vra:name "British (modern)" .
+
+<http://id.loc.gov/authorities/names/n80013276>
+  a bf:Agent, <http://id.loc.gov/ontologies/bibframe/Person> ;
+  rdfs:label "Morier, James Justinian, 1780?-1849" .
+
+<http://rdf.artframe/12003797/I1>
+  a bf:Instance ;
+  bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+  bf:provisionActivity [
+    a bf:ProvisionActivity, <http://id.loc.gov/ontologies/bibframe/Production> ;
+    bf:date "1818"^^edtf:edtf ;
+    bf:place [
+      a bf:Place ;
+      rdfs:label "London, England, United Kingdom"
+    ], [
+      a bf:Place, <http://www.loc.gov/mads/rdf/v1#Country> ;
+      rdfs:label "United Kingdom"
+    ]
+  ] ;
+  bf:provisionActivityStatement """London, England, United Kingdom,
+            1818.""" ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "Portrait of James Justinian Morier (1780?-1849)"
+  ] ;
+  bf:extent [
+    a bf:Extent ;
+    rdfs:label "1 painting"
+  ] ;
+  bf:dimensions """Sight size: 28 x 24 in. (71.5 x 61 cm); with frame: 34 1/2 x 30 1/2 in. (87.5
+            x 77.5 cm)""" ;
+  bf:media [
+    a bf:Media ;
+    rdfs:label "unmediated"
+  ] ;
+  bf:carrier [
+    a bf:Carrier ;
+    rdfs:label "unspecified"
+  ] ;
+  bf:baseMaterial [
+    a bf:BaseMaterial ;
+    rdfs:label "Oil on canvas"
+  ] ;
+  bf:note [
+    a bf:Note ;
+    rdfs:label """A plaque at the bottom of the frame reads: "G. H. HARLOW, 1787-1819. /
+                    JAMES JUSTINIAN MORIER. / Author of 'Hajji Baba.'""""
+  ] ;
+  bf:instanceOf <http://rdf.artframe/12003797/W1> .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a bf:Issuance .
+<http://id.loc.gov/vocabulary/organizations/nynycap>
+  a bf:Agent, <http://id.loc.gov/ontologies/bibframe/Organization> ;
+  rdfs:label "Columbia University Libraries Office of Art Properties" .
+
+[]
+  a bf:hasItem, <http://id.loc.gov/ontologies/bibframe/Item> ;
+  bf:shelfMark [
+    a bf:ShelfMark ;
+    rdfs:label "2000.06.032"
+  ] ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/nynycap> ;
+  bf:immediateAcquisition """Gift of Dr. Calvin H. Plimpton and his mother Anne Hastings
+            Plimpton, to the George A. Plimpton Collection (Rare Book and Manuscript
+            Library).""" ;
+  bf:itemOf <http://rdf.artframe/12003797/I1> .
