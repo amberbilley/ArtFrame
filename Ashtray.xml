@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v6.2.1#"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo#"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe#" xmlns:vra="http://purl.org/vra/"
+    xmlns:relator="http://id.loc.gov/vocabulary/relators/#"
+    xmlns:madsrdf="http://www.loc.gov/standards/mads/rdf/v1.rdf"
+    xmlns:rdau="http://www.rdaregistry.info/Elements/u/#" xml:base="http://rdf.artframe/resource/">
+    <bf:Work rdf:about="http://rdf.artframe/868581180/W2">
+        <bf:adminMetadata>
+            <bf:AdminMetadata>
+                <bf:descriptionConventions>
+                    <bf:DescriptionConventions>
+                        <bf:code>rda</bf:code>
+                    </bf:DescriptionConventions>
+                </bf:descriptionConventions>
+                <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >2014-01-20</bf:creationDate>
+                <bf:source rdf:resource="http://id.loc.gov/vocabulary/organizations/mwica"/>
+            </bf:AdminMetadata>
+        </bf:adminMetadata>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Object"/>
+        <bf:hasInstance rdf:resource="http://rdf.artframe/868581180/I1"/>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>I [love] Venice : portable pocket ashtray</rdfs:label>
+                <bf:mainTitle>I [love] Venice</bf:mainTitle>
+                <bf:subtitle>portable pocket ashtray</bf:subtitle>
+            </bf:Title>
+        </bf:title>
+        <bf:title>
+            <bf:VariantTitle>
+                <rdfs:label>I heart Venice : portable pocket ashtray</rdfs:label>
+            </bf:VariantTitle>
+        </bf:title>
+        <bf:language rdfs:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+        <bf:language rdfs:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
+        <bf:classification>
+            <bf:Classification>
+                <rdfs:label>VB13 N5146 A1 V46 2013p</rdfs:label>
+            </bf:Classification>
+        </bf:classification>
+        <bf:contribution>
+            <bf:Contribution>
+                <bf:agent>
+                    <bf:Agent rdf:about="http://id.loc.gov/rwo/agents/no2013072074">
+                        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Meeting"/>
+                        <rdfs:label>Biennale di Venezia (55th : 2013 : Venice, Italy)</rdfs:label>
+                    </bf:Agent>
+                </bf:agent>
+                <bf:role>
+                    <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/isb"/>
+                </bf:role>
+            </bf:Contribution>
+        </bf:contribution>
+        <bf:content>
+            <bf:Content rdf:about="http://rdaregistry.info/termList/RDAContentType/1021">
+                <rdfs:label>three-dimensional form</rdfs:label>
+            </bf:Content>
+        </bf:content>
+        <bf:content>
+            <bf:Content rdf:about="http://rdaregistry.info/termList/RDAContentType/1014">
+                <rdfs:label>still image</rdfs:label>
+            </bf:Content>
+        </bf:content>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://vocab.getty.edu/aat/300198897">
+                <rdfs:label>ashtrays</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>Souvenir pocket ashtray produced to distribute at the 55th Venice
+                    Biennale, June 1-November 24, 2013</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:subject>
+            <bf:Agent rdf:about="http://id.loc.gov/rwo/agents/no2013072074">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Meeting"/>
+                <rdfs:label>Biennale di Venezia (55th : 2013 : Venice, Italy)</rdfs:label>
+            </bf:Agent>
+        </bf:subject>
+    </bf:Work>
+    <bf:Instance rdf:about="http://rdf.artframe/868581180/I1">
+        <bf:issuance>
+            <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+        </bf:issuance>
+        <bf:provisionActivity>
+            <bf:ProvisionActivity>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+                <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">2013</bf:date>
+                <bf:place>
+                    <bf:Place>
+                        <rdfs:label>[Venice]</rdfs:label>
+                    </bf:Place>
+                </bf:place>
+                <bf:place>
+                    <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/it"/>
+                </bf:place>
+                <bf:agent>
+                    <bf:Agent>
+                        <rdfs:label>[la Biennale di Venezia]</rdfs:label>
+                    </bf:Agent>
+                </bf:agent>
+            </bf:ProvisionActivity>
+        </bf:provisionActivity>
+        <bf:provisionActivity>
+            <bf:ProvisionActivity>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Manufacture"/>
+                <bf:place>
+                    <bf:Place>
+                        <rdfs:label>[China]</rdfs:label>
+                    </bf:Place>
+                </bf:place>
+                <bf:agent>
+                    <bf:Agent>
+                        <rdfs:label>[JTI]</rdfs:label>
+                    </bf:Agent>
+                </bf:agent>
+            </bf:ProvisionActivity>
+        </bf:provisionActivity>
+        <bf:provisionActivityStatement>[Venice] : [la Biennale di Venezia],
+            [2013]</bf:provisionActivityStatement>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>I [love] Venice : portable pocket ashtray</rdfs:label>
+                <bf:mainTitle>I [love] Venice</bf:mainTitle>
+                <bf:subtitle>portable pocket ashtray</bf:subtitle>
+            </bf:Title>
+        </bf:title>
+        <bf:extent>
+            <bf:Extent>
+                <rdfs:label>1 pocket ashtray</rdfs:label>
+            </bf:Extent>
+        </bf:extent>
+        <bf:dimensions>7.5 x 8 cm</bf:dimensions>
+        <bf:note>
+            <bf:Note>
+                <bf:noteType>Accompanying material</bf:noteType>
+                <rdfs:label>1 enclosure</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>Reverse side text: Pocket ashtray. Use it, wash it, reuse it = lo usi,
+                    lo lavi, lo riutilizzi. Usa questo posacenere tascabile per una città piu
+                    pulita</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>55th International Art Exhibition -- La Biennale di Venezia</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:media>
+            <bf:Media>
+                <rdfs:label>unmediated</rdfs:label>
+            </bf:Media>
+        </bf:media>
+        <bf:carrier>
+            <bf:Carrier>
+                <rdfs:label>object</rdfs:label>
+            </bf:Carrier>
+        </bf:carrier>
+        <bf:instanceOf rdf:resource="http://rdf.artframe/868581180/W2"/>
+    </bf:Instance>
+    <bf:hasItem>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Item"/>
+        <bf:shelfMark>
+            <bf:ShelfMark>
+                <rdfs:label>VB13 N5146 A1 V46 2013p</rdfs:label>
+            </bf:ShelfMark>
+        </bf:shelfMark>
+        <bf:heldBy>
+            <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/mwica">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+                <rdfs:label>Sterling and Francine Clark Art Institute</rdfs:label>
+            </bf:Agent>
+        </bf:heldBy>
+        <bf:itemOf rdf:resource="http://rdf.artframe/868581180/I1"/>
+
+    </bf:hasItem>
+
+</rdf:RDF>
