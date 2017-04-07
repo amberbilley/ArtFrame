@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v6.2.1#"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo#"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe#" xmlns:vra="http://purl.org/vra/"
+    xmlns:relator="http://id.loc.gov/vocabulary/relators/#"
+    xmlns:madsrdf="http://www.loc.gov/standards/mads/rdf/v1.rdf"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:rdau="http://www.rdaregistry.info/Elements/u/#" xml:base="http://rdf.artframe/resource/">
+    <bf:Work rdf:about="http://bibframe.example.org/18809478#Work">
+        <bf:adminMetadata>
+            <bf:AdminMetadata>
+                <bf:status>
+                    <bf:Status>
+                        <bf:code>c</bf:code>
+                    </bf:Status>
+                </bf:status>
+                <bflc:encodingLevel>
+                    <bflc:EncodingLevel>
+                        <bf:code>7</bf:code>
+                    </bflc:EncodingLevel>
+                </bflc:encodingLevel>
+                <bf:descriptionConventions>
+                    <bf:DescriptionConventions>
+                        <bf:code>aacr</bf:code>
+                    </bf:DescriptionConventions>
+                </bf:descriptionConventions>
+                <bf:identifiedBy>
+                    <bf:Local>
+                        <rdf:value>18809478</rdf:value>
+                    </bf:Local>
+                </bf:identifiedBy>
+                <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                    >2015-10-06T16:20:11</bf:changeDate>
+                <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >2015-10-06</bf:creationDate>
+                <bf:source>
+                    <bf:Source>
+                        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                        <rdfs:label>DLC</rdfs:label>
+                    </bf:Source>
+                </bf:source>
+                <bf:source>
+                    <bf:Source>
+                        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                        <rdfs:label>DLC</rdfs:label>
+                    </bf:Source>
+                </bf:source>
+                <bf:descriptionModifier>
+                    <bf:Agent>
+                        <rdfs:label>DLC</rdfs:label>
+                    </bf:Agent>
+                </bf:descriptionModifier>
+                <bf:descriptionConventions>
+                    <bf:DescriptionConventions
+                        rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/dcrmg"/>
+                </bf:descriptionConventions>
+            </bf:AdminMetadata>
+        </bf:adminMetadata>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/StillImage"/>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://id.loc.gov/vocabulary/graphicMaterials/tgm007028">
+                <rdfs:label>photonegative</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:colorContent>
+            <bf:ColorContent rdf:about="http://id.loc.gov/vocabulary/mcolor/blw">
+                <rdfs:label>black and white</rdfs:label>
+            </bf:ColorContent>
+        </bf:colorContent>
+        <bf:language>
+            <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng"/>
+        </bf:language>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://id.loc.gov/vocabulary/marcgt/gra">
+                <rdfs:label>graphic</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:classification>
+            <bf:ClassificationLcc>
+                <bf:source>
+                    <bf:Source rdf:about="http://id.loc.gov/vocabulary/organizations/dlc"/>
+                </bf:source>
+                <bf:classificationPortion>LC-J698-</bf:classificationPortion>
+                <bf:itemPortion>6452 [item]</bf:itemPortion>
+            </bf:ClassificationLcc>
+        </bf:classification>
+        <bf:contribution>
+            <bf:Contribution>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bflc/PrimaryContribution"/>
+                <bf:agent>
+                    <bf:Agent rdf:about="http://bibframe.example.org/18809478#Agent100-13">
+                        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                        <bflc:name00MatchKey>Johnston, Frances Benjamin,
+                            1864-1952,</bflc:name00MatchKey>
+                        <bflc:primaryContributorName00MatchKey>Johnston, Frances Benjamin,
+                            1864-1952,</bflc:primaryContributorName00MatchKey>
+                        <bflc:name00MarcKey>1001 $aJohnston, Frances
+                            Benjamin,$d1864-1952,$ephotographer.</bflc:name00MarcKey>
+                        <rdfs:label>Johnston, Frances Benjamin, 1864-1952,</rdfs:label>
+                    </bf:Agent>
+                </bf:agent>
+                <bf:role>
+                    <bf:Role>
+                        <rdfs:label>photographer.</rdfs:label>
+                    </bf:Role>
+                </bf:role>
+            </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>Julia Marlowe</rdfs:label>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>Julia Marlowe</rdfs:label>
+                <bflc:titleSortKey>Julia Marlowe</bflc:titleSortKey>
+                <bf:mainTitle>Julia Marlowe</bf:mainTitle>
+            </bf:Title>
+        </bf:title>
+        <bf:genreForm>
+            <bf:GenreForm>
+                <rdfs:label>graphic</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:content>
+            <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentType/sti">
+                <rdfs:label>still image</rdfs:label>
+                <bf:source>
+                    <bf:Source>
+                        <rdfs:label>rdacontent</rdfs:label>
+                    </bf:Source>
+                </bf:source>
+            </bf:Content>
+        </bf:content>
+        <bf:summary>
+            <bf:Summary>
+                <rdfs:label>Photograph shows actress Julia Marlowe, three-quarter length portrait,
+                    seated, facing front, wearing hat with large bow.</rdfs:label>
+            </bf:Summary>
+        </bf:summary>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>Forms part of: Frances Benjamin Johnston collection (Library of
+                    Congress).</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:subject>
+            <bf:Agent rdf:about="http://bibframe.example.org/18809478#Agent600-25">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Name"/>
+                <madsrdf:authoritativeLabel>Marlowe, Julia, 1865-1950.</madsrdf:authoritativeLabel>
+                <madsrdf:isMemberofMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+                <bf:source>
+                    <bf:Source>
+                        <bf:code>lcsh</bf:code>
+                    </bf:Source>
+                </bf:source>
+                <bflc:name00MatchKey>Marlowe, Julia, 1865-1950.</bflc:name00MatchKey>
+                <bflc:name00MarcKey>60010$aMarlowe, Julia,$d1865-1950.</bflc:name00MarcKey>
+                <rdfs:label>Marlowe, Julia, 1865-1950.</rdfs:label>
+            </bf:Agent>
+        </bf:subject>
+        <bf:subject>
+            <bf:Topic rdf:about="http://bibframe.example.org/18809478#Topic650-26">
+                <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+                <rdfs:label>Actresses--1890-1920.</rdfs:label>
+                <madsrdf:authoritativeLabel>Actresses--1890-1920.</madsrdf:authoritativeLabel>
+                <madsrdf:componentList rdf:parseType="Collection">
+                    <madsrdf:Topic>
+                        <madsrdf:authoritativeLabel>Actresses</madsrdf:authoritativeLabel>
+                    </madsrdf:Topic>
+                    <madsrdf:Temporal>
+                        <madsrdf:authoritativeLabel>1890-1920</madsrdf:authoritativeLabel>
+                    </madsrdf:Temporal>
+                </madsrdf:componentList>
+                <bf:source>
+                    <bf:Source>
+                        <bf:code>lctgm</bf:code>
+                    </bf:Source>
+                </bf:source>
+            </bf:Topic>
+        </bf:subject>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://bibframe.example.org/18809478#GenreForm655-27">
+                <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+                <rdfs:label>Portrait photographs--1890-1920.</rdfs:label>
+                <madsrdf:authoritativeLabel>Portrait
+                    photographs--1890-1920.</madsrdf:authoritativeLabel>
+                <madsrdf:componentList rdf:parseType="Collection">
+                    <madsrdf:GenreForm>
+                        <madsrdf:authoritativeLabel>Portrait
+                            photographs</madsrdf:authoritativeLabel>
+                    </madsrdf:GenreForm>
+                    <madsrdf:Temporal>
+                        <madsrdf:authoritativeLabel>1890-1920</madsrdf:authoritativeLabel>
+                    </madsrdf:Temporal>
+                </madsrdf:componentList>
+                <bf:source>
+                    <bf:Source>
+                        <bf:code>gmgpc</bf:code>
+                    </bf:Source>
+                </bf:source>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:genreForm>
+            <bf:GenreForm rdf:about="http://bibframe.example.org/18809478#GenreForm655-28">
+                <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+                <rdfs:label>Glass negatives--1890-1920.</rdfs:label>
+                <madsrdf:authoritativeLabel>Glass negatives--1890-1920.</madsrdf:authoritativeLabel>
+                <madsrdf:componentList rdf:parseType="Collection">
+                    <madsrdf:GenreForm>
+                        <madsrdf:authoritativeLabel>Glass negatives</madsrdf:authoritativeLabel>
+                    </madsrdf:GenreForm>
+                    <madsrdf:Temporal>
+                        <madsrdf:authoritativeLabel>1890-1920</madsrdf:authoritativeLabel>
+                    </madsrdf:Temporal>
+                </madsrdf:componentList>
+                <bf:source>
+                    <bf:Source>
+                        <bf:code>gmgpc</bf:code>
+                    </bf:Source>
+                </bf:source>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:partOf>
+            <bf:Work rdf:about="http://bibframe.example.org/18809478#Work773-29">
+                <bf:identifiedBy>
+                    <bf:Identifier>
+                        <rdf:value>88707696</rdf:value>
+                        <bf:source>
+                            <bf:Source>
+                                <rdfs:label>DLC</rdfs:label>
+                            </bf:Source>
+                        </bf:source>
+                    </bf:Identifier>
+                </bf:identifiedBy>
+                <bf:hasInstance>
+                    <bf:Instance rdf:about="http://bibframe.example.org/18809478#Instance773-29">
+                        <bf:title>
+                            <bf:Title>
+                                <rdfs:label>Johnston photograph collection (Library of
+                                    Congress)</rdfs:label>
+                            </bf:Title>
+                        </bf:title>
+                        <bf:instanceOf
+                            rdf:resource="http://bibframe.example.org/18809478#Work773-29"/>
+                    </bf:Instance>
+                </bf:hasInstance>
+            </bf:Work>
+        </bf:partOf>
+        <bf:hasInstance>
+            <bf:Instance rdf:about="http://bibframe.example.org/18809478#Instance856-31">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Electronic"/>
+                <bf:title>
+                    <bf:Title>
+                        <rdfs:label>Julia Marlowe</rdfs:label>
+                        <bflc:titleSortKey>Julia Marlowe</bflc:titleSortKey>
+                        <bf:mainTitle>Julia Marlowe</bf:mainTitle>
+                    </bf:Title>
+                </bf:title>
+                <bf:hasItem>
+                    <bf:Item rdf:about="http://bibframe.example.org/18809478#Item856-31">
+                        <bf:electronicLocator>
+                            <rdfs:Resource>
+                                <bflc:locator rdf:resource="http://hdl.loc.gov/loc.pnp/ds.07758"/>
+                                <bf:note>
+                                    <bf:Note>
+                                        <rdfs:label>digital file from original item</rdfs:label>
+                                    </bf:Note>
+                                </bf:note>
+                            </rdfs:Resource>
+                        </bf:electronicLocator>
+                        <bf:itemOf
+                            rdf:resource="http://bibframe.example.org/18809478#Instance856-31"/>
+                    </bf:Item>
+                </bf:hasItem>
+                <bf:instanceOf rdf:resource="http://bibframe.example.org/18809478#Work"/>
+            </bf:Instance>
+        </bf:hasInstance>
+        <bf:hasInstance rdf:resource="http://bibframe.example.org/18809478#Instance"/>
+    </bf:Work>
+    <bf:Instance rdf:about="http://bibframe.example.org/18809478#Instance">
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Collection"/>
+        <bf:baseMaterial>
+            <bf:BaseMaterial rdf:about="http://id.loc.gov/vocabulary/mmaterial/gla">
+                <rdfs:label>glass</rdfs:label>
+            </bf:BaseMaterial>
+        </bf:baseMaterial>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Electronic"/>
+        <bf:provisionActivity>
+            <bf:ProvisionActivity>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+                <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1895/1920</bf:date>
+                <bf:place>
+                    <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/|||"/>
+                </bf:place>
+            </bf:ProvisionActivity>
+        </bf:provisionActivity>
+        <bf:identifiedBy>
+            <bf:Lccn>
+                <rdf:value>2015649106</rdf:value>
+            </bf:Lccn>
+        </bf:identifiedBy>
+        <bf:acquisitionSource>
+            <bf:AcquisitionSource>
+                <bf:identifiedBy>
+                    <bf:StockNumber>
+                        <rdf:value>LC-DIG-ds-07758</rdf:value>
+                    </bf:StockNumber>
+                </bf:identifiedBy>
+                <rdfs:label>DLC</rdfs:label>
+                <bf:acquisitionTerms>(digital file from original item)</bf:acquisitionTerms>
+            </bf:AcquisitionSource>
+        </bf:acquisitionSource>
+        <rdfs:label>Julia Marlowe</rdfs:label>
+        <bf:title>
+            <bf:Title>
+                <rdfs:label>Julia Marlowe</rdfs:label>
+                <bflc:titleSortKey>Julia Marlowe</bflc:titleSortKey>
+                <bf:mainTitle>Julia Marlowe</bf:mainTitle>
+            </bf:Title>
+        </bf:title>
+        <bf:genreForm>
+            <bf:GenreForm>
+                <rdfs:label>graphic</rdfs:label>
+            </bf:GenreForm>
+        </bf:genreForm>
+        <bf:provisionActivity>
+            <bf:ProvisionActivity>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+                <bf:date>between 1895 and 1920</bf:date>
+            </bf:ProvisionActivity>
+        </bf:provisionActivity>
+        <bf:provisionActivityStatement>[between 1895 and 1920]</bf:provisionActivityStatement>
+        <bf:extent>
+            <bf:Extent>
+                <rdfs:label>1 photograph</rdfs:label>
+            </bf:Extent>
+        </bf:extent>
+        <bf:note>
+            <bf:Note>
+                <bf:noteType>Physical details</bf:noteType>
+                <rdfs:label>glass negative</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:dimensions>plate 24 x 18 cm (8 x 10 format)</bf:dimensions>
+        <bf:media>
+            <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaType/n">
+                <rdfs:label>unmediated</rdfs:label>
+                <bf:source>
+                    <bf:Source>
+                        <rdfs:label>rdamedia</rdfs:label>
+                    </bf:Source>
+                </bf:source>
+            </bf:Media>
+        </bf:media>
+        <bf:carrier>
+            <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nb">
+                <rdfs:label>sheet</rdfs:label>
+                <bf:source>
+                    <bf:Source>
+                        <rdfs:label>rdacarrier</rdfs:label>
+                    </bf:Source>
+                </bf:source>
+            </bf:Carrier>
+        </bf:carrier>
+        <bf:usageAndAccessPolicy>
+            <bf:UsePolicy>
+                <rdfs:label>No known restrictions on publication</rdfs:label>
+            </bf:UsePolicy>
+        </bf:usageAndAccessPolicy>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>Title from item.</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:note>
+            <bf:Note>
+                <rdfs:label>On negative sleeve: "Julia Marlowe."</rdfs:label>
+            </bf:Note>
+        </bf:note>
+        <bf:instanceOf rdf:resource="http://bibframe.example.org/18809478#Work"/>
+        <bf:hasItem>
+            <bf:Item rdf:about="http://bibframe.example.org/18809478#Item050-12">
+                <bf:shelfMark>
+                    <bf:ShelfMarkLcc>
+                        <rdfs:label>LC-J698- 6452 [item]</rdfs:label>
+                        <bf:source>
+                            <bf:Source rdf:about="http://id.loc.gov/vocabulary/organizations/dlc"/>
+                        </bf:source>
+                    </bf:ShelfMarkLcc>
+                </bf:shelfMark>
+                <bf:itemOf rdf:resource="http://bibframe.example.org/18809478#Instance"/>
+            </bf:Item>
+        </bf:hasItem>
+        <bf:hasItem>
+            <bf:Item rdf:about="http://bibframe.example.org/18809478#Item852-30">
+                <bf:heldBy>
+                    <bf:Agent>
+                        <rdfs:label>Library of Congress</rdfs:label>
+                    </bf:Agent>
+                </bf:heldBy>
+                <bf:subLocation>
+                    <bf:SubLocation>
+                        <rdfs:label>Prints and Photographs Division</rdfs:label>
+                    </bf:SubLocation>
+                </bf:subLocation>
+                <bf:subLocation>
+                    <bf:SubLocation>
+                        <rdfs:label>Washington, D.C. 20540 USA, dcu</rdfs:label>
+                    </bf:SubLocation>
+                </bf:subLocation>
+                <bf:electronicLocator rdf:resource="http://hdl.loc.gov/loc.pnp/pp.print"/>
+                <bf:itemOf rdf:resource="http://bibframe.example.org/18809478#Instance"/>
+            </bf:Item>
+        </bf:hasItem>
+    </bf:Instance>
+</rdf:RDF>
