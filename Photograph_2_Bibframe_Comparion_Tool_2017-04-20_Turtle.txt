@@ -1,0 +1,212 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zs: <http://docs.oasis-open.org/ns/search-ws/sruResponse> .
+
+<http://bibframe.example.org/11911655#GenreForm655-24> a bf:GenreForm,
+        madsrdf:ComplexSubject ;
+    rdfs:label "Drawings--Reproductions--1940-1950." ;
+    bf:source [ a bf:Source ;
+            bf:code "gmgpc" ] ;
+    madsrdf:authoritativeLabel "Drawings--Reproductions--1940-1950." ;
+    madsrdf:componentList ( [ a madsrdf:GenreForm ;
+                madsrdf:authoritativeLabel "Drawings" ] [ a madsrdf:Topic ;
+                madsrdf:authoritativeLabel "Reproductions" ] [ a madsrdf:Temporal ;
+                madsrdf:authoritativeLabel "1940-1950" ] ) .
+
+<http://bibframe.example.org/11911655#GenreForm655-25> a bf:GenreForm,
+        madsrdf:ComplexSubject ;
+    rdfs:label "Photographic prints--1940-1950." ;
+    bf:source [ a bf:Source ;
+            bf:code "gmgpc" ] ;
+    madsrdf:authoritativeLabel "Photographic prints--1940-1950." ;
+    madsrdf:componentList ( [ a madsrdf:GenreForm ;
+                madsrdf:authoritativeLabel "Photographic prints" ] [ a madsrdf:Temporal ;
+                madsrdf:authoritativeLabel "1940-1950" ] ) .
+
+<http://bibframe.example.org/11911655#Instance773-26> a bf:Instance ;
+    bf:instanceOf <http://bibframe.example.org/11911655#Work773-26> ;
+    bf:title [ a bf:Title ;
+            rdfs:label "New York World-Telegram and the Sun Newspaper Photograph Collection (Library of Congress)" ] .
+
+<http://bibframe.example.org/11911655#Item050-14> a bf:Item ;
+    bf:itemOf <http://bibframe.example.org/11911655#Instance> ;
+    bf:shelfMark [ a bf:ShelfMarkLcc ;
+            rdfs:label "NYWTS - SUBJ/GEOG--Automobiles--Tucker [item]" ;
+            bf:source <http://id.loc.gov/vocabulary/organizations/dlc> ] .
+
+<http://bibframe.example.org/11911655#Item852-27> a bf:Item ;
+    bf:heldBy [ a bf:Agent ;
+            rdfs:label "Library of Congress" ] ;
+    bf:itemOf <http://bibframe.example.org/11911655#Instance> ;
+    bf:subLocation [ a bf:SubLocation ;
+            rdfs:label "Prints and Photographs Division" ],
+        [ a bf:SubLocation ;
+            rdfs:label "Washington, D.C., 20540 USA, dcu" ] .
+
+<http://bibframe.example.org/11911655#Item856-28> a bf:Item ;
+    bf:electronicLocator [ a rdfs:Resource ;
+            bflc:locator <http://hdl.loc.gov/loc.pnp/cph.3c24395> ;
+            bf:note [ a bf:Note ;
+                    rdfs:label "b&w film copy neg." ] ] ;
+    bf:itemOf <http://bibframe.example.org/11911655#Instance856-28> .
+
+<http://bibframe.example.org/11911655#Topic650-22> a bf:Topic,
+        madsrdf:ComplexSubject ;
+    rdfs:label "Tucker automobile--1940-1950." ;
+    madsrdf:authoritativeLabel "Tucker automobile--1940-1950." ;
+    madsrdf:componentList ( [ a madsrdf:Topic ;
+                madsrdf:authoritativeLabel "Tucker automobile" ] [ a madsrdf:Temporal ;
+                madsrdf:authoritativeLabel "1940-1950" ] ) .
+
+<http://bibframe.example.org/11911655#Topic650-23> a bf:Topic,
+        madsrdf:ComplexSubject ;
+    rdfs:label "Automobiles--1940-1950." ;
+    bf:source [ a bf:Source ;
+            bf:code "lctgm" ] ;
+    madsrdf:authoritativeLabel "Automobiles--1940-1950." ;
+    madsrdf:componentList ( [ a madsrdf:Topic ;
+                madsrdf:authoritativeLabel "Automobiles" ] [ a madsrdf:Temporal ;
+                madsrdf:authoritativeLabel "1940-1950" ] ) .
+
+<http://id.loc.gov/vocabulary/carriers/cr> a bf:Carrier ;
+    rdfs:label "online resource" .
+
+<http://id.loc.gov/vocabulary/countries/xxu> a bf:Place .
+
+<http://id.loc.gov/vocabulary/descriptionConventions/gihc> a bf:DescriptionConventions .
+
+<http://id.loc.gov/vocabulary/graphicMaterials/tgm007718> a bf:GenreForm ;
+    rdfs:label "photoprint" .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a bf:Issuance .
+
+<http://id.loc.gov/vocabulary/languages/eng> a bf:Language .
+
+<http://id.loc.gov/vocabulary/marcgt/gra> a bf:GenreForm ;
+    rdfs:label "graphic" .
+
+<http://id.loc.gov/vocabulary/mcolor/blw> a bf:ColorContent ;
+    rdfs:label "black and white" .
+
+<http://id.loc.gov/vocabulary/mediaTypes/c> a bf:Media ;
+    rdfs:label "computer" .
+
+<http://id.loc.gov/vocabulary/mmaterial/pap> a bf:BaseMaterial ;
+    rdfs:label "paper" .
+
+<http://bibframe.example.org/11911655#Instance856-28> a bf:Electronic,
+        bf:Instance ;
+    bf:hasItem <http://bibframe.example.org/11911655#Item856-28> ;
+    bf:instanceOf <http://bibframe.example.org/11911655#Work> ;
+    bf:title [ a bf:Title ;
+            rdfs:label "[1948 Tucker automobile]" ;
+            bflc:titleSortKey "[1948 Tucker automobile]" ;
+            bf:mainTitle "[1948 Tucker automobile]" ] .
+
+<http://bibframe.example.org/11911655#Work> a bf:StillImage,
+        bf:Work ;
+    rdfs:label "[1948 Tucker automobile]" ;
+    bf:adminMetadata [ a bf:AdminMetadata ;
+            bflc:encodingLevel [ a bflc:EncodingLevel ;
+                    bf:code "7" ] ;
+            bf:changeDate "2006-02-28T20:03:37"^^xsd:dateTime ;
+            bf:creationDate "2000-02-14"^^xsd:date ;
+            bf:descriptionConventions [ a bf:DescriptionConventions ;
+                    bf:code "aacr" ],
+                <http://id.loc.gov/vocabulary/descriptionConventions/gihc> ;
+            bf:identifiedBy [ a bf:Local ;
+                    rdf:value "11911655" ] ;
+            bf:source [ a bf:Agent,
+                        bf:Source ;
+                    rdfs:label "DLC" ],
+                [ a bf:Agent,
+                        bf:Source ;
+                    rdfs:label "DLC" ] ;
+            bf:status [ a bf:Status ;
+                    bf:code "c" ] ] ;
+    bf:classification [ a bf:ClassificationLcc ;
+            bf:classificationPortion "NYWTS - SUBJ/GEOG--Automobiles--Tucker" ;
+            bf:itemPortion "[item]" ;
+            bf:source <http://id.loc.gov/vocabulary/organizations/dlc> ] ;
+    bf:colorContent <http://id.loc.gov/vocabulary/mcolor/blw> ;
+    bf:genreForm [ a bf:GenreForm ;
+            rdfs:label "graphic" ],
+        <http://bibframe.example.org/11911655#GenreForm655-24>,
+        <http://bibframe.example.org/11911655#GenreForm655-25>,
+        <http://id.loc.gov/vocabulary/graphicMaterials/tgm007718>,
+        <http://id.loc.gov/vocabulary/marcgt/gra> ;
+    bf:hasInstance <http://bibframe.example.org/11911655#Instance>,
+        <http://bibframe.example.org/11911655#Instance856-28> ;
+    bf:language <http://id.loc.gov/vocabulary/languages/eng> ;
+    bf:note [ a bf:Note ;
+            rdfs:label "Forms part of: New York World-Telegram and the Sun Newspaper Photograph Collection (Library of Congress)." ] ;
+    bf:partOf <http://bibframe.example.org/11911655#Work773-26> ;
+    bf:subject <http://bibframe.example.org/11911655#Topic650-22>,
+        <http://bibframe.example.org/11911655#Topic650-23> ;
+    bf:title [ a bf:Title ;
+            rdfs:label "[1948 Tucker automobile]" ;
+            bflc:titleSortKey "[1948 Tucker automobile]" ;
+            bf:mainTitle "[1948 Tucker automobile]" ] .
+
+<http://bibframe.example.org/11911655#Work773-26> a bf:Work ;
+    bf:hasInstance <http://bibframe.example.org/11911655#Instance773-26> ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source [ a bf:Source ;
+                    rdfs:label "DLC" ] ;
+            rdf:value "   94505083" ] .
+
+<http://id.loc.gov/vocabulary/organizations/dlc> a bf:Source .
+
+<http://bibframe.example.org/11911655#Instance> a bf:Electronic,
+        bf:Instance ;
+    rdfs:label "[1948 Tucker automobile]" ;
+    bf:acquisitionSource [ a bf:AcquisitionSource ;
+            rdfs:label "DLC" ;
+            bf:acquisitionTerms "(b&w film copy neg.)" ;
+            bf:identifiedBy [ a bf:StockNumber ;
+                    rdf:value "LC-USZ62-124395" ] ] ;
+    bf:baseMaterial <http://id.loc.gov/vocabulary/mmaterial/pap> ;
+    bf:carrier <http://id.loc.gov/vocabulary/carriers/cr> ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "1 photographic print." ] ;
+    bf:genreForm [ a bf:GenreForm ;
+            rdfs:label "graphic" ] ;
+    bf:hasItem <http://bibframe.example.org/11911655#Item050-14>,
+        <http://bibframe.example.org/11911655#Item852-27> ;
+    bf:identifiedBy [ a bf:Local ;
+            bf:source [ a bf:Source ;
+                    rdfs:label "DLC" ] ;
+            rdf:value "11911655" ],
+        [ a bf:Local ;
+            bf:source [ a bf:Source ;
+                    rdfs:label "DLC" ] ;
+            rdf:value "   00649872" ],
+        [ a bf:Lccn ;
+            rdf:value "   00649872 " ] ;
+    bf:instanceOf <http://bibframe.example.org/11911655#Work> ;
+    bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+    bf:media <http://id.loc.gov/vocabulary/mediaTypes/c> ;
+    bf:note [ a bf:Note ;
+            rdfs:label "Photograph from New York Museum of Science and Industry." ],
+        [ a bf:Note ;
+            rdfs:label "Photograph of drawing." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1947"^^<http://id.loc.gov/datatypes/edtf> ;
+            bf:place <http://id.loc.gov/vocabulary/countries/xxu> ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1947" ] ;
+    bf:provisionActivityStatement "1947." ;
+    bf:title [ a bf:Title ;
+            rdfs:label "[1948 Tucker automobile]" ;
+            bflc:titleSortKey "[1948 Tucker automobile]" ;
+            bf:mainTitle "[1948 Tucker automobile]" ] ;
+    bf:usageAndAccessPolicy [ a bf:UsePolicy ;
+            rdfs:label "http://lcweb.loc.gov/rr/print/res/076_nyw.html"^^xsd:anyURI,
+                "Publication may be restricted. For information see \"New York World-Telegram ...,\"" ] .
